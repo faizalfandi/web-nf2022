@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+</head>
+<body style="height: 100%;">
+    <!-- div parent -->
+    <div style="display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: aquamarine;
+    height: 100%;
+    ">
+        <!-- head -->
+        <div style="display: flex;
+        justify-content: space-around;
+        flex-direction: row;padding: 10px;background-color: violet;
+        ">
+            <div>
+                <li>site name</li>
+            </div>
+            <div>
+                <a href="">category1</a>|
+                <a href="">category2</a>|
+                <a href="">category3</a>
+            </div>
+            <div>
+                <img src="img\keranjang.png" alt="" width="20">
+                cart(1)
+            </div>
+        </div>
+
+        <!-- content -->
+        <div style="
+        display: flex;height: 100%;">
+
+            <!-- your cart -->
+            <div style="width: 100%;padding: 20px;">
+                <h2>your cart</h2>
+                <table rules="rows" style="width: 100%;"">
+                    <thead>
+                        <th>item</th>
+                        <th>price</th>
+                        <th>quantity</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img align="center"src="img\baju.jpg" alt="" width="100">
+                            </td>
+                            <td>
+                                t-shirt<br> size:small
+                            </td>
+                            <td><b>$20.00</b></td>
+                            <td>
+                                <select name="jumlah" id="">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right" colspan="3">subtotal: <b>$20.00</b></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <!-- summary -->
+            <div style="background-color: violet;width: 40%;height: fit-content;padding: 20px;margin: 20px;">
+                <h2>summary(1 item)</h2>
+                <table style="width: 100%;">
+                    <tr>
+                       <td>subtotal</td>
+                       <td>$20.00</td>
+                    </tr>
+                    <tr>
+                        <td>shiping</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>Est.taxes</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><hr></td>
+                    </tr>
+                    <tr>
+                        <td>total</td>
+                        <td>$20.00</td>
+                    </tr>
+                </table>
+                <button style="width:100% ;">Checkout</button>
+            </div>
+        </div>
+
+        <!-- foot -->
+        <div style="display: flex;justify-content:space-between;flex-direction: row;padding: 10px;background-color: violet;">
+            <div>
+                site name <br>
+                <img src="img\visa_colored.jpg" alt="" width="20">
+                <img src="img\master_card.png" alt="" width="20">
+                <img src="img\american_expres.png" alt="" width="20">
+            </div>
+            <div>
+                <a href="">category1</a>|
+                <a href="">category2</a>|
+                <a href="">category3</a>  
+            </div>
+            <div>
+                stay in touch! join our Newsletter <br>
+                <input type="text" placeholder="enter email">
+                <button style="background-color: gray;color: aliceblue;">subscribe</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
