@@ -1,0 +1,45 @@
+.center {
+    margin-top: 20px;
+    margin-left: 700px;
+    width: 700px;
+    border-collapse: collapse;
+}
+.justify {
+    background-color: rgb(15, 108, 214);
+    color: white;
+    font-weight: bold;
+}
+
+.conten {
+    background-color: rgb(182, 216, 248);
+    text-align: left;
+}
+
+.ijal {
+    text-align: left;
+}
+
+.fandi {
+    background-color: rgb(182, 216, 248);
+    text-align: left;
+}
+
+.mulyadi {
+    text-align: left;
+}
+
+.nomor1 {
+    font-weight: bold;
+}
+
+.nomor2 {
+    font-weight: bold;
+}
+
+.nomor3 {
+    font-weight: bold;
+}
+
+.nomor4 {
+    font-weight: bold;
+}

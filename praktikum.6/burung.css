@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+    color: blue;
+}
+body {
+    background-color: antiquewhite;
+    padding-left: 10px;
+}
+#header {
+    background-color: burlywood;
+    margin: auto;
+    padding-bottom: 3px;
+}
+blockquote {
+    background-color: rgb(253, 209, 14);
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    border: 2px dotted;
+    font-weight: bold;
+}
+div {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bBesar{
+    display: inline;
+    color: blue;
+    font-size: 50px;
+}
+.gambar {
+   margin-left: 10px;
+}
+.isi {
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3 {
+    text-align: left;
+    font-weight: bold;
+}
